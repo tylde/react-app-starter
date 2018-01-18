@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
+import './ExampleContainer.scss';
+
 import { /* actions */ } from './actions';
 
 class ExampleContainer extends Component {
@@ -12,7 +14,7 @@ class ExampleContainer extends Component {
   render() {
     return (
       <div className="example-container">
-        Application
+        <span className="first-letter">R</span>eact <span className="first-letter">A</span>pplication
       </div>
     );
   }
