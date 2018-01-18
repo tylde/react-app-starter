@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux';
 
+import exampleReducer from './exampleReducer';
+
 const rootReducer = combineReducers({
-  // reducers
+  exampleText: exampleReducer
 });
 
 export default rootReducer;

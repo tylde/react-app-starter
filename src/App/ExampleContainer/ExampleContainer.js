@@ -14,14 +14,17 @@ class ExampleContainer extends Component {
   render() {
     return (
       <div className="example-container">
-        <span className="first-letter">R</span>eact <span className="first-letter">A</span>pplication
+        <div className="title">
+          <span className="first-letter">R</span>eact <span className="first-letter">App</span>lication
+        </div>
+        <div className="description">{this.props.exampleText}</div>
       </div>
     );
   }
 }
 
-function mapStateToProps({ /* store */ }) {
-  return { /* store */ };
+function mapStateToProps({ exampleText }) {
+  return { exampleText };
 }
 function mapDispatchToProps(dispatch) {
   return bindActionCreators({ /* actions */ }, dispatch);
