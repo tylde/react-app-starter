@@ -1,0 +1,45 @@
+{
+  "name": "react-app-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.common.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.common.js",
+    "build": "webpack --config webpack.prod.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylde/react-app-starter.git"
+  },
+  "keywords": [
+    "react",
+    "app",
+    "starter"
+  ],
+  "author": "tylde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tylde/react-app-starter/issues"
+  },
+  "homepage": "https://github.com/tylde/react-app-starter#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0",
+    "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  }
+}
