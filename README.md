@@ -3,6 +3,7 @@
 1. _React:_
 	* react
 	* react-dom
+	* react-router-dom
 2. _Redux:_
 	* react-redux
 	* redux
